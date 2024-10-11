@@ -73,7 +73,7 @@ def generate_article_review(article: str, content: str) -> ArticleReview:
 
 ## Implementing Exa Search
 
-Create a function to search for climate change articles using Exa:
+Create a function to search for climate change articles and return the results as a JSON object using Exa:
 
 ```python
 def exa_search(num_results: int):
